@@ -1,7 +1,9 @@
 import React from "react";
+import { RepositoryList } from "./compontes/RepositoryList";
 
 function App(){
-    return <h1>Oi</h1>
+    return <RepositoryList/>
+
 }
 
 export {App}
