@@ -9,7 +9,7 @@ module.exports = {
   devtool: isDevelopment ? 'eval-source-map' : 'source-map',
   
   mode:'development',
-  entry: path.resolve(__dirname, 'src', 'index.jsx'),
+  entry: path.resolve(__dirname, 'src', 'index.tsx'),
   devtool: 'eval-source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),

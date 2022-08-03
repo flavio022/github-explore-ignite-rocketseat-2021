@@ -4,14 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "react": "^18.2.0", 
-    "react-dom": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.54.1"
   },
   "scripts": {
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack"
   },
- "devDependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
